@@ -18,6 +18,9 @@
   <img alt="npmpkg" src="https://nodei.co/npm/inkstats-v2.png" herf="https://npmjs.org/package/inkstats-v2">
   </p>
 
+
+## Note: I will be restarting this project soon
+
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
   - [Requirements](#requirements)
