@@ -1,4 +1,9 @@
-export * from "./module"
-export * as StatsModule from "./StatsModule"
-export * from "./ms"
-export * from "./log"
+/**
+ * InkStatus 0.0.1-alpha
+ * @copyright lucaslah 2021
+ * @author lucaslah
+ * @exports ./utils/getOS
+ */
+
+export * from "./utils/getOS";
+export * from "./modules/CPU";

@@ -1,27 +1,15 @@
 PROJECT = "InkStats"
-MANAGER= "yarn" # Yarn or npm
 
+.PHONY: test install clean update build
 
-all: install test server
+all: install test
 
-debug: ;@echo "Debuging ${PROJECT}....."; \
-	${MANAGER} start serve --debug
+test: ./node_modules/.bin/jest
 
-test: ;@echo "Testing ${PROJECT}....."; \
-	${MANAGER} test 
+install: yarn
 
-server : ;@echo "Starting ${PROJECT}....."; \
-	node ./dist/cli.js serve
+update: git pull 
 
-install: ;@echo "Installing ${PROJECT}....."; \
-	${MANAGER} install
+clean: rm -rf node_modules
 
-update: ;@echo "Updating ${PROJECT}....."; \
-	git pull --rebase; \
-	${MANAGER} install
-
-clean : ;
-	rm -rf node_modules
-
-
-.PHONY: test server install clean update
+build: ./node_modules/.bin/tsc

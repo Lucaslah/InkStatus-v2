@@ -3,8 +3,8 @@
 </h1>
 
 <p align="center">
-  A Nodejs Server Stats & Information app.
-  </p>
+  Nodejs Status Cli & Module
+</p>
 
 
 <p align="center">
