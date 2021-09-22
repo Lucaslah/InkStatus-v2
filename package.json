@@ -22,7 +22,7 @@
         "url": "https://github.com/Lucaslah/inkstats-v2/issues"
     },
     "dependencies": {
-        "@types/yargs": "^17.0.2",
+        "@types/yargs": "^17.0.3",
         "yargs": "^17.1.1"
     }
 }
