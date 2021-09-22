@@ -5,7 +5,7 @@
     "bin": "./dist/cli.js",
     "license": "ISC",
     "devDependencies": {
-        "@types/node": "^16.9.1",
+        "@types/node": "^16.9.6",
         "typescript": "^4.4.3"
     },
     "description": "Nodejs Status Cli & Module",
