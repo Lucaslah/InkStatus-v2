@@ -23,6 +23,6 @@
     },
     "dependencies": {
         "@types/yargs": "^17.0.2",
-        "yargs": "^17.1.1"
+        "yargs": "^17.2.0"
     }
 }
